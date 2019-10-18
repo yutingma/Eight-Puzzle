@@ -1,0 +1,48 @@
+# Yuting Ma
+# ytma@bu.edu
+
+puzzles with 5-move optimal solutions
+——————————————————————————————————————
+algorithm               num. solved   avg. moves   avg. states tested
+———————————————————————————————————————————————————————————————————————
+random (1st)                 10            5.0            150.0 
+       (2nd)                 10            5.6            197.8
+       (3rd)                 10            6.0            571.9
+BFS                          10            5.0             47.1
+DFS(depth limit 20)          10           16.2          19072.7
+DFS(depth limit 50)          10           48.2          49043.0
+Greedy Search                10            5.4             70.3
+A*                           10            5.0              6.5 
+
+
+puzzles with 10-move optimal solutions
+——————————————————————————————————————
+algorithm               num. solved   avg. moves   avg. states tested
+———————————————————————————————————————————————————————————————————————
+random (1st)               10            10.8           8457.6
+       (2nd)              
+       (3rd)     
+BFS                        10            10.0            747.4
+DFS(depth limit 20)        10            18.8          24858.0
+DFS(depth limit 50)        10            49.2          92287.3
+Greedy Search              10            97.6           7422.7
+A*                         10            10.0             27.3
+
+
+
+puzzles with 15-move optimal solutions
+——————————————————————————————————————
+algorithm               num. solved   avg. moves   avg. states tested
+———————————————————————————————————————————————————————————————————————
+random (1st)      
+       (2nd)            
+       (3rd)     
+BFS                     
+DFS(depth limit 20)         
+DFS(depth limit 50)     
+Greedy Search            
+A*       
+
+
+
+heuristic 1            
